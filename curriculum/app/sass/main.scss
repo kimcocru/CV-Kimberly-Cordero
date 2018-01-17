@@ -1,0 +1,18 @@
+
+@import url("default.scss");
+@import url("fonts.scss");
+@import url("layout.scss");
+@import url("magnific-popup.css");
+@import url("media-queries.scss");
+/*@import url("fontello/css/fontello.css");
+/*@import url("font-awesome/css/font-awesome.min.css");*/
+
+$my-color: blue;
+
+.outer {
+  background-color: yellow;
+  .inner {
+    background-color: $my-color;
+    display: flex;
+  }
+}
